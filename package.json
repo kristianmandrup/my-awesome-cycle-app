@@ -1,0 +1,32 @@
+{
+  "name": "my-awesome-cycle-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@cycle/time": "^0.7.3",
+    "ava": "^0.18.2",
+    "cycle-scripts": "1.1.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^16.0.0",
+    "@cycle/run": "^3.0.0",
+    "xstream": "^10.3.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test && ava",
+    "test:ava": "ava --esnext",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject"
+  },
+  "ava": {
+    "require": ["babel-register"]
+  },
+  "babel": {
+    "presets": [
+      "@ava/stage-4",
+      "@ava/transform-test-files",
+      "es2015"
+    ]
+  }
+}
