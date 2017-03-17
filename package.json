@@ -5,7 +5,8 @@
   "devDependencies": {
     "@cycle/time": "^0.7.3",
     "ava": "^0.18.2",
-    "cycle-scripts": "1.1.0"
+    "cycle-scripts": "1.1.0",
+    "nightmare": "^2.10.0"
   },
   "dependencies": {
     "@cycle/dom": "^16.0.0",
@@ -20,7 +21,9 @@
     "eject": "cycle-scripts eject"
   },
   "ava": {
-    "require": ["babel-register"]
+    "require": [
+      "babel-register"
+    ]
   },
   "babel": {
     "presets": [
