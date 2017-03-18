@@ -12,7 +12,13 @@
   },
   "dependencies": {
     "@cycle/dom": "^16.0.0",
+    "@cycle/most-run": "^7.1.0",
     "@cycle/run": "^3.0.0",
+    "@most/hold": "^2.0.0",
+    "@motorcycle/dom": "^9.1.0",
+    "apollo-client": "^1.0.0-rc.3",
+    "cycle-graphql-driver": "^0.4.2",
+    "most": "^1.2.2",
     "xstream": "^10.3.0"
   },
   "scripts": {
