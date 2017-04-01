@@ -1,5 +1,7 @@
 # Cycle.js App with Ava and Time testing
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/my-awesome-cycle-app.svg)](https://greenkeeper.io/)
+
 Sample app created using [create-cycle-app](https://github.com/cyclejs-community/create-cycle-app)
 
 Added:
